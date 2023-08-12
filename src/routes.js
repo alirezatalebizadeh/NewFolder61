@@ -4,6 +4,7 @@ import Header3 from './Components/Header3/Header3'
 import Header4 from './Components/Header4/Header4'
 import Header5 from "./Components/Header5/Header5";
 import Header6 from "./Components/Header6/Header6";
+import Header7 from "./Components/Header7/Header7";
 let routes = [
     { path: '/*', element: <Header1 /> },
     { path: '/header2', element: <Header2 /> },
@@ -11,7 +12,7 @@ let routes = [
     { path: '/header4', element: <Header4 /> },
     { path: '/header5', element: <Header5 /> },
     { path: '/header6', element: <Header6 /> },
-    { path: '/header7', element: <Header5 /> }
+    { path: '/header7', element: <Header7/> }
 ]
 
 
