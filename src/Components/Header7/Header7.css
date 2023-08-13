@@ -32,8 +32,8 @@ video {
   top: 0;
   width: 50%;
   height: 100%;
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
   z-index: 50;
 }
 .navBar {
@@ -83,10 +83,13 @@ video {
 }
 .text7 p {
   color: #fff;
+  font-size: 1.2rem;
   margin: 20px 0;
+  font-weight: 600;
 }
 .text7.title {
   color: white;
+  font-weight: bold;
 }
 
 .Btn7 {
@@ -94,4 +97,9 @@ video {
   padding: 10px 15px;
   border-radius: 10px;
   font-size: 1.2rem;
+  transition: all 0.2s;
+}
+.Btn7:hover {
+  background-color: #000000ab;
+  color: white;
 }
