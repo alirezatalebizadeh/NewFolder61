@@ -30,6 +30,7 @@ export default function Header8() {
                             <img src='images/img1.jpg' alt='img' />
                             <img src='images/img1.jpg' alt='img' />
                         </div>
+                        
                     </div>
                 </div>
             </div>
